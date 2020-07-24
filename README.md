@@ -15,6 +15,12 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dD5k4y09XZw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## ワールド固定をしたい場合
+
+カメラを入れたボーンに生成される `_PostBlurLens_Main` という名前のオブジェクトを固定してください。
+
+（ろじらぼ様の[VRC_ObjectDropper](https://logilabo.booth.pm/items/1968729)が手軽に固定できてオススメです）
+
 ## PostBlurLensをアバターから消したい場合
 
-カメラを入れたボーン、及びヘッドボーン内にある `_PostBlurLens` から始まるオブジェクトを削除してください
+アバターのルート、カメラを入れたボーン、及びヘッドボーン内にある `_PostBlurLens` から始まるオブジェクトを削除してください。
